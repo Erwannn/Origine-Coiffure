@@ -1,0 +1,152 @@
+body{
+  overflow-x: hidden;
+}
+
+#logoLoading{
+  height: 300px;
+  width: 300px;
+  margin: 150px auto;
+  position: relative;
+}
+
+#logoG{
+  height: 300px;
+  width: 300px;
+  background-image: url(../images/logo1.png);
+  background-size: 300px 300px;
+  position: absolute;
+}
+
+#logoD{
+  height: 300px;
+  width: 300px;
+  background-image: url(../images/logo2.png);
+  background-size: 300px 300px;
+  position: absolute;
+}
+
+@keyframes rotate {
+  0%   {transform: rotate(0deg);}
+  100% {transform: rotate(1440deg);}
+}
+
+@keyframes separate1 {
+  0%   {left: 0px;}
+  100% {left: -1800px;}
+}
+
+@keyframes separate2 {
+  0%   {right: 0px;}
+  100% {right: -1800px;}
+}
+
+@keyframes floatA {
+  0% {right: 0px;
+    top: 0px;}
+  25% {right: -100px;
+    top: -70px;}
+  50% {right: -200px;
+    top: -90px;}
+  75% {right: -400px;
+    top: -120px;}
+  100% {right: -690px;
+    top: -130px;}
+}
+
+@keyframes floatB {
+  0% {right: 0px;
+    top: 0px;}
+  25% {right: 100px;
+    top: -70px;}
+  50% {right: 200px;
+    top: -90px;}
+  75% {right: 400px;
+    top: -120px;}
+  100% {right: 690px;
+    top: -130px;}
+}
+
+@keyframes floatC {
+  0% {right: 0px;
+    top: 0px;}
+  25% {right: 10px;
+    top: -120px;}
+  50% {right: 40px;
+    top: -85px;}
+  75% {right: 15px;
+    top: -130px;}
+  100% {right: 140px;
+    top: -270px;}
+}
+
+@keyframes floatD {
+  0% {right: 0px;
+    top: 0px;}
+  25% {right: -40px;
+    top: -120px;}
+  50% {right: -75px;
+    top: -85px;}
+  75% {right: 25px;
+    top: -130px;}
+  100% {right: -100px;
+    top: -270px;}
+}
+
+@keyframes floatE {
+  0% {right: 0px;
+    top: 0px;}
+  25% {right: -90px;
+    top: -70px;}
+  50% {right: -130px;
+    top: -90px;}
+  75% {right: -180px;
+    top: -200px;}
+  100% {right: -300px;
+    top: -300px;}
+}
+
+@keyframes floatF {
+  0% {right: 0px;
+    top: 0px;}
+  25% {right: 90px;
+    top: -70px;}
+  50% {right: 130px;
+    top: -90px;}
+  75% {right: 180px;
+    top: -200px;}
+  100% {right: 300px;
+    top: -300px;}
+}
+
+
+[id^="bubble"]{
+  position: absolute;
+  width: 115px;
+  height: 100px;
+  background-size: 115px 100px;
+  margin: 100px 92.5px 100px 92.5px;
+}
+
+#bubble1{
+  background-image: url(../images/bubble1.png);
+}
+
+#bubble2{
+  background-image: url(../images/bubble2.png);
+}
+
+#bubble3{
+  background-image: url(../images/bubble3.png);
+}
+
+#bubble4{
+  background-image: url(../images/bubble4.png);
+}
+
+#bubble5{
+  background-image: url(../images/bubble5.png);
+}
+
+#bubble6{
+  background-image: url(../images/bubble6.png);
+}
